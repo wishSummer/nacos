@@ -61,7 +61,7 @@ CREATE TABLE `config_info_gray` (
                                     UNIQUE KEY `uk_configinfogray_datagrouptenantgray` (`data_id`,`group_id`,`tenant_id`,`gray_name`),
                                     KEY `idx_dataid_gmt_modified` (`data_id`,`gmt_modified`),
                                     KEY `idx_gmt_modified` (`gmt_modified`)
-) ENGINE=InnoDB AUTO_INCREMENT=1 DEFAULT CHARSET=utf8 COMMENT='config_info_gray'
+) ENGINE=InnoDB AUTO_INCREMENT=1 DEFAULT CHARSET=utf8 COMMENT='config_info_gray';
 
 /******************************************/
 /*   表名称 = config_info_beta             */
